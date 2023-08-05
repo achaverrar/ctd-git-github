@@ -1,4 +1,4 @@
-untracked ⚠️
-added 👀
-modified 🦾
-deleted 😥
+- ***untracked*** ⚠️
+- ***added*** 👀
+- ***modified*** 🦾
+- ***deleted*** 😥
