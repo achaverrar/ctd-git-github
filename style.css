@@ -4,8 +4,8 @@
 /* Global variables */
 :root {
   /* Colors */
-  --color-primary: #e11d48;
-  --color-highlight-2: #262626;
+  --color-primary: #380ceb6f;
+  --color-highlight: #262626;
   --color-grey: #737373;
   --color-white: #ffffff;
   /* Fonts */
@@ -25,10 +25,19 @@ html {
   scroll-behavior: smooth;
   box-sizing: border-box;
   font-size: 62.5%;
-  font-family: --font-default;
+  font-family: var(--font-default);
 }
 
 body {
   min-height: 100vh;
   height: 100%;
+}
+
+h1 {
+  color: var(--color-primary);
+  font-weight: 500;
+}
+
+h1::first-letter {
+  font-weight: 700;
 }
